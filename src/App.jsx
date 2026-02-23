@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import Accordion from "./components/Accordian/Accordian";
 import TabForm from "./components/TabForm/TabForm";
+import Pagination from "./components/Pagination/Pagination";
 import Layout from "./Layout";
 import Home from "./Home";
 
@@ -12,6 +13,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="accordion" element={<Accordion />} />
           <Route path="tab-form" element={<TabForm />} />
+          <Route path="pagination" element={<Pagination />} />
         </Route>
       </Routes>
     </>

@@ -5,6 +5,7 @@ const Home = () => {
     <nav style={{ display: "grid", gap: "10px", marginBottom: "20px" }}>
       <Link to="/accordion">Accordion</Link>
       <Link to="/tab-form">Tab Form</Link>
+      <Link to="/pagination">Pagination</Link>
     </nav>
   );
 };
