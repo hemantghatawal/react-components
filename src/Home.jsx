@@ -6,6 +6,7 @@ const Home = () => {
       <Link to="/accordion">Accordion</Link>
       <Link to="/tab-form">Tab Form</Link>
       <Link to="/pagination">Pagination</Link>
+      <Link to="/chips-input">Chips Input</Link>
     </nav>
   );
 };
