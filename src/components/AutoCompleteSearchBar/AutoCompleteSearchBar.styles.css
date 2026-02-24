@@ -1,0 +1,27 @@
+.search-input {
+  width: 500px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.suggestions-container {
+  width: 500px;
+  padding: 6px;
+  border: 1px solid grey;
+  margin: auto;
+  max-height: 400px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.search-suggestions {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  border-bottom: 1px solid black;
+}
+
+.search-suggestions:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}

@@ -5,6 +5,7 @@ import Pagination from "./components/Pagination/Pagination";
 import Layout from "./Layout";
 import Home from "./Home";
 import ChipsInput from "./components/ChipsInput/ChipsInput";
+import AutoCompleteSearchBar from "./components/AutoCompleteSearchBar/AutoCompleteSearchBar";
 
 export default function App() {
   return (
@@ -16,6 +17,10 @@ export default function App() {
           <Route path="tab-form" element={<TabForm />} />
           <Route path="pagination" element={<Pagination />} />
           <Route path="chips-input" element={<ChipsInput />} />
+          <Route
+            path="auto-complete-search-bar"
+            element={<AutoCompleteSearchBar />}
+          />
         </Route>
       </Routes>
     </>
