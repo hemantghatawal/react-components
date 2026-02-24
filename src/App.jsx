@@ -7,6 +7,7 @@ import Layout from "./Layout";
 import Home from "./Home";
 import ChipsInput from "./components/ChipsInput/ChipsInput";
 import AutoCompleteSearchBar from "./components/AutoCompleteSearchBar/AutoCompleteSearchBar";
+import ProgressBars from "./components/ProgressBars/ProgressBars";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
               </>
             }
           />
+          <Route path="progress-bars" element={<ProgressBars />} />
           <Route path="accordion" element={<Accordion />} />
           <Route path="tab-form" element={<TabForm />} />
           <Route path="pagination" element={<Pagination />} />
