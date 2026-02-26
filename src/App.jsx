@@ -8,6 +8,7 @@ import Home from "./Home";
 import ChipsInput from "./components/ChipsInput/ChipsInput";
 import AutoCompleteSearchBar from "./components/AutoCompleteSearchBar/AutoCompleteSearchBar";
 import ProgressBars from "./components/ProgressBars/ProgressBars";
+import FileExplorer from "./components/FileExplorer/FileExplorer";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
             path="auto-complete-search-bar"
             element={<AutoCompleteSearchBar />}
           />
+          <Route path="file-explorer" element={<FileExplorer />} />
         </Route>
       </Routes>
     </>

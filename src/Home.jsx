@@ -10,6 +10,7 @@ const Home = () => {
       <Link to="/pagination">Pagination</Link>
       <Link to="/chips-input">Chips Input</Link>
       <Link to="/auto-complete-search-bar">Auto Complete Search Bar</Link>
+      <Link to="/file-explorer">File Explorer</Link>
     </nav>
   );
 };
