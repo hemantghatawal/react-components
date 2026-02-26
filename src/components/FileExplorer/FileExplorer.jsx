@@ -21,7 +21,7 @@ const List = ({ list, addNodeToList, deleteNodeFromList }) => {
               {isExpanded?.[node.name] ? "➕" : "➖"}
             </span>
           )}
-          <span className="cursor" onClick={handleExpanded}>
+          <span>
             {node.isFolder ? "📂" : "📄 "}{" "}
           </span>
           <span
