@@ -1,0 +1,10 @@
+.todo-container > input,
+span,
+button {
+  margin-left: 5px;
+  padding: 2px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}

@@ -12,6 +12,7 @@ const Home = () => {
       <Link to="/auto-complete-search-bar">Auto Complete Search Bar</Link>
       <Link to="/file-explorer">File Explorer</Link>
       <Link to="/nested-checkbox">Nested Checkbox</Link>
+      <Link to="/todo-list">Todo List</Link>
     </nav>
   );
 };

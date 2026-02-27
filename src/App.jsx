@@ -10,6 +10,7 @@ import AutoCompleteSearchBar from "./components/AutoCompleteSearchBar/AutoComple
 import ProgressBars from "./components/ProgressBars/ProgressBars";
 import FileExplorer from "./components/FileExplorer/FileExplorer";
 import NestedCheckbox from "./components/NestedCheckbox/NestedCheckbox";
+import TodoList from "./components/TodoList/TodoList";
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
           />
           <Route path="file-explorer" element={<FileExplorer />} />
           <Route path="nested-checkbox" element={<NestedCheckbox />} />
+          <Route path="todo-list" element={<TodoList />} />
         </Route>
       </Routes>
     </>
