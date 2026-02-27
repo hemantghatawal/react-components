@@ -1,0 +1,17 @@
+.checkbox-container {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+/* Each level stacks vertically */
+.checkbox {
+  margin: 6px 0;
+  padding-left: 10px;
+}
+
+/* Indentation for children */
+.checkbox > div {
+  margin-left: 10px;
+  border-left: 1px dashed #ccc;
+  padding-left: 10px;
+}

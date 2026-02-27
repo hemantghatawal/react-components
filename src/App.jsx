@@ -9,6 +9,7 @@ import ChipsInput from "./components/ChipsInput/ChipsInput";
 import AutoCompleteSearchBar from "./components/AutoCompleteSearchBar/AutoCompleteSearchBar";
 import ProgressBars from "./components/ProgressBars/ProgressBars";
 import FileExplorer from "./components/FileExplorer/FileExplorer";
+import NestedCheckbox from "./components/NestedCheckbox/NestedCheckbox";
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
             element={<AutoCompleteSearchBar />}
           />
           <Route path="file-explorer" element={<FileExplorer />} />
+          <Route path="nested-checkbox" element={<NestedCheckbox />} />
         </Route>
       </Routes>
     </>

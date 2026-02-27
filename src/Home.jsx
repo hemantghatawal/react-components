@@ -11,6 +11,7 @@ const Home = () => {
       <Link to="/chips-input">Chips Input</Link>
       <Link to="/auto-complete-search-bar">Auto Complete Search Bar</Link>
       <Link to="/file-explorer">File Explorer</Link>
+      <Link to="/nested-checkbox">Nested Checkbox</Link>
     </nav>
   );
 };
